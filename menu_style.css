@@ -1,0 +1,138 @@
+
+body{
+    background-color: rgb(184, 226, 178);
+}
+
+body h1{
+
+    justify-content: center;
+    text-align: center;
+    font-size: 3em; 
+    background-color    :rgb(181, 236, 42); 
+    border-radius: 5%;
+    border: inset  ;
+}
+h2{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color:  rgb(189, 240, 106);
+    width: fit-content;
+    margin: auto;
+    font-size: 2em;
+    border: outset;
+    border-radius: 5px;
+}
+.container
+{
+    top: -170px;
+    position: relative;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+  .container .box{
+    position: relative; 
+    width: 400px;
+    height: 275px;
+    margin: 50px;
+    font-size: 1.5em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(238, 193, 135);
+    scale: 2px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: inset;
+     
+}
+
+.container .box
+{
+    box-shadow: 35px 32px 25px #424242;
+
+}
+
+.container .box .inbox{
+    width: 350px;
+    height: 50px;
+    background-image: linear-gradient(rgb(3, 73, 20),rgb(10, 219, 10),rgb(19, 20, 20));
+    align-content: center;
+    margin: auto;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+.image:hover{
+    transition: 3.0s;
+    width: 450px;
+    height: 275px;
+    
+}
+
+
+.details{
+    top:32%;
+    position: absolute;
+    left: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.details .dappa{
+    position: relative; 
+    width: 400px;
+    height: 275px;
+    margin: 50px;
+    font-size: 1.5em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(238, 193, 135);
+    scale: 2px;
+    border-radius: 25px;
+    box-shadow: 35px 32px 25px #424242;
+    border: inset;
+}
+
+
+.details .dappa .ullabox{
+    width: 350px;
+    height: 50px;
+    background-image: linear-gradient(rgb(3, 73, 20),rgb(10, 219, 10),rgb(19, 20, 20));
+    align-content: center;
+    margin: auto;
+    border-radius: 8px;
+    color:whitesmoke;
+    font-size: 1.2em;
+    
+}
+.details .dappa .pop{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    background-image:linear-gradient(rgb(37, 37, 37),rgb(102, 248, 73),rgb(10, 10, 10));
+    scale: 0.2;
+    transition: all 0.5s;
+    rotate: 180deg;
+    box-shadow: 35px 32px 35px #424242;
+    
+/*    background-image:linear-gradient(rgb(245, 169, 69),rgb(214, 169, 109),rgb(245, 169, 69)); */
+}
+.dappa .pop:hover{
+    
+    scale: 1;
+    rotate: 360deg;
+    box-shadow: 20px 5px 15px #424242;
+
+}
